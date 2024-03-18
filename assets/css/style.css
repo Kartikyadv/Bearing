@@ -2017,7 +2017,8 @@ img {
 }
 
 .header-style-1 .navbar-brand, .header-style-2 .navbar-brand {
-  margin-top: 12px;
+  margin-top: 1px;
+  /* size: ; */
 }
 
 @media (max-width: 991px) {
@@ -2031,7 +2032,7 @@ img {
 }
 
 .header-style-1 .navbar-brand img, .header-style-2 .navbar-brand img {
-  max-width: 170px;
+  max-width: 200px;
 }
 
 @media screen and (min-width: 992px) {
