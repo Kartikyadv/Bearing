@@ -423,7 +423,7 @@ img {
 }
 
 .theme-btn, .theme-btn-s2, .submit-btn {
-  background-color: #ff5e14;
+  background-color: rgb(225, 16, 16);
   font-size: 12px;
   font-size: 0.8rem;
   font-weight: 600;
