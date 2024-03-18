@@ -4267,7 +4267,12 @@ img {
     padding-top: 0;
   }
 }
-
+.product-text {
+  padding-top: 20px;
+}
+.product-image{
+  /* height: 150px; */
+}
 .blog-section .view-all {
   text-align: right;
 }
