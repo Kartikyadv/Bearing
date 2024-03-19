@@ -4273,6 +4273,15 @@ img {
 .product-image{
   /* height: 150px; */
 }
+.videoplay{
+  height: 585px;
+  margin-left: 30px;
+}
+@media (min-width: 991px) {
+  .videoplay{
+    margin-left: 100px;
+  }
+}
 .blog-section .view-all {
   text-align: right;
 }
