@@ -4103,6 +4103,7 @@ img {
 .partners-section .grid img {
   width: auto;
   margin: 0 auto;
+  margin-left: 100px;
   display: inline-block;
 }
 
@@ -4601,12 +4602,15 @@ img {
 .services-section-s2 .service-grids p, .services-section-s3 .service-grids p {
   margin: 0;
 }
+.brandImg{
+  height: 50px;
+}
 
 /*--------------------------------------------------------------
 #2.4	cta-section-s2
 --------------------------------------------------------------*/
 .cta-section-s2 {
-  background: url("../images/cta-s2-bg.jpg") center top/cover no-repeat local;
+  background: url("../images/bgpic2.png") center top/cover no-repeat local;
   position: relative;
   padding: 120px 0 130px;
   text-align: center;
