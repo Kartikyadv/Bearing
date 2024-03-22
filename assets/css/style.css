@@ -2549,6 +2549,7 @@ img {
   height: 890px;
 }
 
+
 @media (min-width: 991px) {
   .hero-style-2 {
     margin-top: 140px;
@@ -2704,6 +2705,9 @@ img {
   .site-footer .widget-title {
     margin-bottom: 20px;
   }
+}
+.navcustom{
+  min-height: 100px;
 }
 
 .site-footer .widget-title h3 {
