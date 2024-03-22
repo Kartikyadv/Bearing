@@ -1859,7 +1859,7 @@ img {
     content: "";
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.9);
+    /* background: rgba(0, 0, 0, 0.9); */
     position: absolute;
     left: 0;
     top: 0;
@@ -1908,11 +1908,11 @@ img {
 
 .header-style-2 {
   overflow: hidden;
-  background-color: #333;
+  /* background-color: #333; */
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 5;
+  z-index: 50;
 }
 
 @media (max-width: 767px) {
