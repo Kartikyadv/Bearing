@@ -463,7 +463,7 @@ img {
 
 .theme-btn:after, .theme-btn-s2:after, .submit-btn:after {
   content: "";
-  background: #ff7070;
+  background: red;
   width: 1px;
   height: 100%;
   position: absolute;
@@ -483,7 +483,7 @@ img {
 }
 
 .theme-btn:hover, .theme-btn-s2:hover, .submit-btn:hover, .theme-btn:focus, .theme-btn-s2:focus, .submit-btn:focus, .theme-btn:active, .theme-btn-s2:active, .submit-btn:active {
-  background-color: #fa4f00;
+  background-color: red;
   color: #fff;
 }
 
@@ -678,7 +678,7 @@ img {
 }
 
 .page-title .breadcrumb li a:hover {
-  color: #fa4f00;
+  color: red;
 }
 
 .page-title .breadcrumb > li + li {
@@ -2595,11 +2595,10 @@ img {
 
 @media (max-width: 767px) {
   .hero-style-2, .hero-style-3 {
-    height: 265px;
-    min-height: 265px;
+    height: 250px;
+    min-height: 250px;
   }
 }
-
 .hero-style-2 .slide-title h2, .hero-style-3 .slide-title h2 {
   margin: -0.2em 0 0.3em;
 }
