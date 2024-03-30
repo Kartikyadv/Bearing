@@ -333,7 +333,7 @@ img {
 .section-title > span, .section-title-s2 > span, .section-title-s3 > span, .section-title-s4 > span {
   font-family: "Barlow Condensed", sans-serif;
   font-size: 15px;
-  font-size: 1rem;
+  font-size: 2rem;
   font-weight: 500;
   color: red;
   text-transform: uppercase;
@@ -1937,13 +1937,6 @@ img {
   }
 }
 
-
-/* @media (max-width: 767px) {
-  .mobilenocustom {
-    font-size: larger;
-  }
-} */
-
 @media (max-width: 767px) {
   .header-style-1 .topbar, .header-style-2 .topbar {
     text-align: center;
@@ -2053,12 +2046,11 @@ img {
     padding-top: 0;
     margin: 0;
     position: relative;
-    top: 2px;
   }
 }
 
 .header-style-1 .navbar-brand img, .header-style-2 .navbar-brand img {
-  max-width: 200px;
+  max-width: 215px;
 }
 
 @media screen and (min-width: 992px) {
@@ -3908,7 +3900,7 @@ img {
 }
 
 .why-choose-us-section .skills {
-  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .why-choose-us-section .skills .skill {
