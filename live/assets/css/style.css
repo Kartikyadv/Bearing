@@ -423,6 +423,7 @@ img {
 }
 
 .theme-btn, .theme-btn-s2, .submit-btn {
+  margin-right: 10px;
   background-color: #020D26;
   font-size: 12px;
   font-size: 0.8rem;
@@ -2313,6 +2314,28 @@ img {
 .hero-slider .swiper-slide {
   overflow: hidden;
   color: #fff;
+  position: relative;
+}
+.button-container {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content:space-between;
+  align-items: flex-end;
+}
+
+@media (max-width: 767px) {
+  .button-container {
+    position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content:space-between;
+  align-items: flex-end;
+  }
 }
 
 .hero-slider .swiper-container {
@@ -2515,7 +2538,7 @@ img {
 }
 @media (min-width: 991px) {
   .slider-btn-custom{
-    margin-top: 441px;
+    margin-top:30%;
   }
 }
 
@@ -2780,6 +2803,15 @@ img {
   border-radius: 3px;
   text-align: center;
   border: 1px solid #c2c4c8;
+}
+.socialcustom{
+  padding-top: 5px;
+  width: 103px;
+  height: 44px;
+  text-align: left;
+  justify-content: center;
+  background-color: transparent;
+  border-radius: 3px;
 }
 
 .site-footer .about-widget .social ul li a:hover {
@@ -3898,7 +3930,6 @@ img {
     padding-bottom: 70px;
   }
 }
-
 .why-choose-us-section .skills {
   padding-bottom: 30px;
 }
